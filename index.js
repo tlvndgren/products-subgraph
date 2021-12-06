@@ -13,7 +13,7 @@ const port = process.env.PORT || 4001
 const resolvers = {
     Product: {
         price(product) {
-            return product.price.find(id => { __typename: "Price", id });
+            return product.prices.find(id => { __typename: "Price", id });
         }
     },
     Query: {
