@@ -14,7 +14,7 @@ const resolvers = {
     },
     Query: {
         product(_, { id }) {
-            return product.find((product) => product.id === parseInt(id, 10));
+            return products.find((product) => product.id === parseInt(id, 10));
         },
         products() {
             return products
