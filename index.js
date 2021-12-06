@@ -8,9 +8,14 @@ const typeDefs = gql(fs.readFileSync("./products.graphql", 'utf8'));
 const products = require("./data/products.js");
 
 // Variable Definitions
-const port = process.env.PORT || 4002
+const port = process.env.PORT || 4001
 
 const resolvers = {
+    Product: {
+        price(product) {
+            return product.price.find(id => { __typename: "Price", id });
+        }
+    },
     Query: {
         product(_, { id }) {
             return products.find((product) => product.id === parseInt(id, 10));
