@@ -7,11 +7,11 @@ const products = require("./data/products.js");
 const port = process.env.PORT || 4002
 
 const resolvers = {
-    Product: {
-        __resolverReference(object) {
-            return products.find((product) => product.id === object.id);
-        },
-    },
+    // Product: {
+    //     __resolverReference(object) {
+    //         return products.find((product) => product.id === object.id);
+    //     },
+    // },
     Query: {
         product(_, { id }) {
             return products.find((product) => product.id === parseInt(id, 10));
