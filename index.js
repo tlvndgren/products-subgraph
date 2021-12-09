@@ -1,9 +1,9 @@
-// Dependencies
+// External Dependencies
 const fs = require("fs");
 const { ApolloServer, gql } = require("apollo-server");
 const { buildSubgraphSchema } = require("@apollo/federation")
 
-// Internal imports
+// Internal Dependencies
 const typeDefs = gql(fs.readFileSync("./products.graphql", 'utf8'));
 const products = require("./data/products.js");
 
@@ -14,7 +14,10 @@ const resolvers = {
     Product: {
         price(product) {
             return { __typename: "Price", id: product.priceId };
-        }
+        },
+        __resolveReference(object) {
+            return products.find((product) => product.id === parseInt(object.id, 10));
+        },
     },
     Query: {
         product(_, { id }) {
