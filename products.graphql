@@ -1,6 +1,9 @@
 type Product @key(fields: "id") {
     id: ID!
     name: String!
+    description: String!
+    brand: String!
+    color: String!
     upc: String!
     price: Price!
 }
