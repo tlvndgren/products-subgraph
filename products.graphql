@@ -11,7 +11,7 @@ type Product @key(fields: "id") {
     brand: String!
     color: String!
     upc: String! @tag(name: "private")
-    price: Price! @tag(name: "private")
+    price: Price!
 }
 
 extend type Price @key(fields: "id") @tag(name: "private") {
