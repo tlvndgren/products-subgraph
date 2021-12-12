@@ -15,7 +15,7 @@ type Product @key(fields: "id") {
 }
 
 extend type Price @key(fields: "id") {
-    id: ID! @external
+    id: ID! @external @tag(name: "private")
 }
 
 extend type Query {
