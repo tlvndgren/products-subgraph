@@ -14,7 +14,7 @@ type Product @key(fields: "id") {
     price: Price!
 }
 
-extend type Price @key(fields: "id") @tag(name: "private") {
+extend type Price @key(fields: "id") {
     id: ID! @external
 }
 
