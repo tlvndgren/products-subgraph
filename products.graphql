@@ -1,6 +1,12 @@
+directive @tag(name: String!) repeatable on
+  | FIELD_DEFINITION
+  | INTERFACE
+  | OBJECT
+  | UNION
+  
 type Product @key(fields: "id") {
     id: ID!
-    name: String!
+    name: String! @tag(name: "external")
     description: String!
     brand: String!
     color: String!
