@@ -4,17 +4,27 @@ directive @tag(name: String!) repeatable on
   | OBJECT
   | UNION
 
+"An object representing the products we sell."
 type Product @key(fields: "id") {
+    "Internal product ID for db mapping."
     id: ID!
+    "Name of the product"
     name: String!
+    "Short descriptions of the product"
     description: String!
+    "The manufacturer of the product."
     brand: String!
+    "The product's color"
     color: String!
+    "The UPC for shipping and inventory logistics."
     upc: String! @tag(name: "private")
+    "The price of the product in local currency."
     price: Price!
 }
 
+"The product needs to get a price from the pricing service."
 extend type Price @key(fields: "id") {
+    "The ID to pass to the pricing service."
     id: ID! @external
 }
 
