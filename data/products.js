@@ -1,139 +1,154 @@
 const products = [
   {
     "id": 1,
-    "name": "Durable Concrete Wallet",
-    "description": "Quam tempore culpa. Quos corrupti harum. Quia fuga accusamus. Quia ab beatae.",
-    "brand": "GoPro",
-    "color": "fuchsia",
-    "upc": "076681074-7",
-    "priceId": 12
+    "name": "Awesome Bronze Computer",
+    "description": "Maxime cum ducimus. Est eos saepe. Et dolorum et. Error esse alias.",
+    "brand": "Nike",
+    "color": "aquamarine",
+    "upc": "278505971-9",
+    "priceId": 6,
+    "promotionCode": "GoodPromo782676"
   },
   {
     "id": 2,
-    "name": "Awesome Concrete Bottle",
-    "description": "Mollitia magni ab. Sit eum id. Ea atque dolorem. Sit quis minima.",
-    "brand": "LG",
-    "color": "ruby",
-    "upc": "671691309-2",
-    "priceId": 3
+    "name": "Lightweight Linen Watch",
+    "description": "Natus et accusamus. Voluptas tenetur corrupti. Quas ut et. Ea ut qui.",
+    "brand": "Samsung",
+    "color": "olive",
+    "upc": "389858924-2",
+    "priceId": 15,
+    "promotionCode": "SpecialCode617496"
   },
   {
     "id": 3,
-    "name": "Rustic Marble Shoes",
-    "description": "Et rerum aut. Eum praesentium dolorem. Quia ipsum nam. Veniam optio qui.",
-    "brand": "Nike",
-    "color": "turquoise",
-    "upc": "202933867-2",
-    "priceId": 11
+    "name": "Rustic Iron Clock",
+    "description": "Consequuntur voluptatem autem. Deleniti modi voluptate. Voluptatum earum recusandae. Adipisci beatae voluptas.",
+    "brand": "Adidas",
+    "color": "sapphire",
+    "upc": "168932772-3",
+    "priceId": 13,
+    "promotionCode": "AmazingPrice532514"
   },
   {
     "id": 4,
-    "name": "Intelligent Wool Clock",
-    "description": "Aperiam nihil earum. Nihil aut atque. Quis et beatae. Sit qui omnis.",
-    "brand": "LG",
-    "color": "purple",
-    "upc": "360510005-8",
-    "priceId": 2
+    "name": "Mediocre Concrete Coat",
+    "description": "Nesciunt aut aut. Natus nostrum impedit. Accusantium et itaque. Qui et tempora.",
+    "brand": "Samsung",
+    "color": "peach",
+    "upc": "293589625-4",
+    "priceId": 5,
+    "promotionCode": "KillerPromo857241"
   },
   {
     "id": 5,
-    "name": "Rustic Steel Lamp",
-    "description": "Corrupti maiores in. Aut dignissimos dolorem. Facilis dolor in. Iusto incidunt nihil.",
-    "brand": "Sony",
-    "color": "violet",
-    "upc": "500696687-4",
-    "priceId": 10
+    "name": "Fantastic Iron Gloves",
+    "description": "Rem beatae voluptas. Tempora laborum unde. Nemo velit sed. Et ipsam ad.",
+    "brand": "Apple",
+    "color": "orchid",
+    "upc": "756928205-1",
+    "priceId": 4,
+    "promotionCode": "KillerDiscount836337"
   },
   {
     "id": 6,
-    "name": "Incredible Concrete Shirt",
-    "description": "Maiores dicta temporibus. Officia consequatur omnis. Officia neque maiores. Nesciunt cumque ut.",
-    "brand": "Nikon",
-    "color": "crimson",
-    "upc": "505349938-1",
-    "priceId": 14
+    "name": "Heavy Duty Paper Wallet",
+    "description": "Nisi et harum. Aperiam placeat nemo. Rerum et nostrum. Doloribus perspiciatis modi.",
+    "brand": "Adidas",
+    "color": "byzantium",
+    "upc": "270363602-4",
+    "priceId": 8,
+    "promotionCode": "GoodDeal101538"
   },
   {
     "id": 7,
-    "name": "Mediocre Wool Car",
-    "description": "Dolore sapiente eos. Vero et eius. Sit enim deleniti. Fugit quos quae.",
-    "brand": "Dell",
-    "color": "white",
-    "upc": "861015560-9",
-    "priceId": 13
+    "name": "Heavy Duty Leather Shoes",
+    "description": "Facilis tempore perferendis. Sed ut ipsam. Esse pariatur molestias. Odit illo qui.",
+    "brand": "Samsung",
+    "color": "champagne",
+    "upc": "999706664-2",
+    "priceId": 3,
+    "promotionCode": "IncredibleDeal311633"
   },
   {
     "id": 8,
-    "name": "Lightweight Leather Pants",
-    "description": "Facere eveniet alias. Qui et et. Quibusdam quia perferendis. Fuga a odio.",
-    "brand": "Nikon",
-    "color": "amethyst",
-    "upc": "565261619-9",
-    "priceId": 8
+    "name": "Intelligent Marble Clock",
+    "description": "Odio exercitationem quod. Aut consequatur eum. Ut est ea. Sapiente eos officiis.",
+    "brand": "Beats",
+    "color": "crimson",
+    "upc": "031824969-3",
+    "priceId": 14,
+    "promotionCode": "KillerPromotion742742"
   },
   {
     "id": 9,
-    "name": "Lightweight Plastic Chair",
-    "description": "Ducimus repudiandae iste. Reiciendis dolorem dolor. Aut unde nulla. Ut iusto et.",
-    "brand": "Adidas",
-    "color": "orchid",
-    "upc": "572411107-1",
-    "priceId": 6
+    "name": "Small Leather Lamp",
+    "description": "Laborum temporibus rem. Fugit repellat quia. Id et doloremque. Et eaque ut.",
+    "brand": "Dell",
+    "color": "plum",
+    "upc": "749173098-1",
+    "priceId": 11,
+    "promotionCode": "KillerDiscount482400"
   },
   {
     "id": 10,
-    "name": "Small Steel Computer",
-    "description": "Ullam sunt voluptas. Mollitia deserunt tenetur. Quas nulla beatae. Doloremque aliquid minus.",
-    "brand": "Apple",
-    "color": "blue",
-    "upc": "221410351-1",
-    "priceId": 15
+    "name": "Intelligent Plastic Gloves",
+    "description": "Ad aut sed. Ullam vero inventore. Dolor aliquid vel. Ad quia voluptatem.",
+    "brand": "Samsung",
+    "color": "gray",
+    "upc": "112836746-7",
+    "priceId": 1,
+    "promotionCode": "KillerDeal439325"
   },
   {
     "id": 11,
-    "name": "Small Plastic Car",
-    "description": "Voluptatum velit aperiam. Cupiditate et quibusdam. Deleniti ut autem. Provident minus ut.",
-    "brand": "Sony",
-    "color": "raspberry",
-    "upc": "583568928-4",
-    "priceId": 1
+    "name": "Rustic Linen Plate",
+    "description": "Aliquid molestias minima. Ut distinctio facilis. Quia iure deleniti. Sit ab nobis.",
+    "brand": "Beats",
+    "color": "orange",
+    "upc": "479196554-X",
+    "priceId": 2,
+    "promotionCode": "StellarSale575433"
   },
   {
     "id": 12,
-    "name": "Awesome Leather Gloves",
-    "description": "Voluptatem molestiae consequatur. Voluptatem hic et. Vel distinctio quasi. Quia blanditiis cupiditate.",
-    "brand": "Dell",
-    "color": "turquoise",
-    "upc": "798971285-7",
-    "priceId": 5
+    "name": "Synergistic Silk Shoes",
+    "description": "Cupiditate ipsa fugiat. Voluptatibus voluptatem deserunt. Quam nesciunt beatae. Sint nostrum eos.",
+    "brand": "Sony",
+    "color": "silver",
+    "upc": "343971106-4",
+    "priceId": 9,
+    "promotionCode": "IncrediblePromo174674"
   },
   {
     "id": 13,
-    "name": "Lightweight Bronze Plate",
-    "description": "Facere et esse. Aut vel repudiandae. Nemo fuga rem. Aut ad sit.",
-    "brand": "Dell",
-    "color": "beige",
-    "upc": "258639716-9",
-    "priceId": 4
+    "name": "Ergonomic Marble Plate",
+    "description": "Neque earum rerum. Fuga odit ut. Et ut consequuntur. Qui fugit fugiat.",
+    "brand": "Beats",
+    "color": "chocolate",
+    "upc": "049439977-5",
+    "priceId": 10,
+    "promotionCode": "StellarSale393003"
   },
   {
     "id": 14,
-    "name": "Durable Leather Coat",
-    "description": "Possimus eligendi in. Debitis natus aut. Doloremque minima sit. Quidem rerum consequatur.",
-    "brand": "Nikon",
-    "color": "black",
-    "upc": "026447841-X",
-    "priceId": 9
+    "name": "Rustic Marble Shoes",
+    "description": "Eum aut consequatur. Quia veritatis qui. Assumenda modi ipsam. Quibusdam eum provident.",
+    "brand": "GoPro",
+    "color": "chocolate",
+    "upc": "822535223-8",
+    "priceId": 7,
+    "promotionCode": "CoolPromotion901262"
   },
   {
     "id": 15,
-    "name": "Incredible Linen Table",
-    "description": "Itaque voluptas quas. Omnis et architecto. Dolores et esse. Omnis earum amet.",
-    "brand": "Samsung",
-    "color": "red",
-    "upc": "344349565-6",
-    "priceId": 7
+    "name": "Heavy Duty Paper Watch",
+    "description": "Labore dolor magnam. Tenetur ab cumque. Suscipit aut dolore. Aut ipsum nihil.",
+    "brand": "Adidas",
+    "color": "lemon",
+    "upc": "442002296-5",
+    "priceId": 12,
+    "promotionCode": "SpecialPrice245300"
   }
-]
+];
 
 module.exports = products;

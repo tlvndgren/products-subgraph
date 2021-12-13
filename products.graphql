@@ -20,6 +20,8 @@ type Product @key(fields: "id") {
     upc: String! @tag(name: "private")
     "The price of the product in local currency."
     price: Price!
+    "A special discount code to promote sales"
+    promotionCode: String
 }
 
 extend type Price @key(fields: "id") {
