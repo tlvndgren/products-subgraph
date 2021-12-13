@@ -2,7 +2,7 @@ const products = [
   {
     "id": 1,
     "name": "Durable Concrete Wallet",
-    "descriptions": "Quam tempore culpa. Quos corrupti harum. Quia fuga accusamus. Quia ab beatae.",
+    "description": "Quam tempore culpa. Quos corrupti harum. Quia fuga accusamus. Quia ab beatae.",
     "brand": "GoPro",
     "color": "fuchsia",
     "upc": "076681074-7",
@@ -11,7 +11,7 @@ const products = [
   {
     "id": 2,
     "name": "Awesome Concrete Bottle",
-    "descriptions": "Mollitia magni ab. Sit eum id. Ea atque dolorem. Sit quis minima.",
+    "description": "Mollitia magni ab. Sit eum id. Ea atque dolorem. Sit quis minima.",
     "brand": "LG",
     "color": "ruby",
     "upc": "671691309-2",
@@ -20,7 +20,7 @@ const products = [
   {
     "id": 3,
     "name": "Rustic Marble Shoes",
-    "descriptions": "Et rerum aut. Eum praesentium dolorem. Quia ipsum nam. Veniam optio qui.",
+    "description": "Et rerum aut. Eum praesentium dolorem. Quia ipsum nam. Veniam optio qui.",
     "brand": "Nike",
     "color": "turquoise",
     "upc": "202933867-2",
@@ -29,7 +29,7 @@ const products = [
   {
     "id": 4,
     "name": "Intelligent Wool Clock",
-    "descriptions": "Aperiam nihil earum. Nihil aut atque. Quis et beatae. Sit qui omnis.",
+    "description": "Aperiam nihil earum. Nihil aut atque. Quis et beatae. Sit qui omnis.",
     "brand": "LG",
     "color": "purple",
     "upc": "360510005-8",
@@ -38,7 +38,7 @@ const products = [
   {
     "id": 5,
     "name": "Rustic Steel Lamp",
-    "descriptions": "Corrupti maiores in. Aut dignissimos dolorem. Facilis dolor in. Iusto incidunt nihil.",
+    "description": "Corrupti maiores in. Aut dignissimos dolorem. Facilis dolor in. Iusto incidunt nihil.",
     "brand": "Sony",
     "color": "violet",
     "upc": "500696687-4",
@@ -47,7 +47,7 @@ const products = [
   {
     "id": 6,
     "name": "Incredible Concrete Shirt",
-    "descriptions": "Maiores dicta temporibus. Officia consequatur omnis. Officia neque maiores. Nesciunt cumque ut.",
+    "description": "Maiores dicta temporibus. Officia consequatur omnis. Officia neque maiores. Nesciunt cumque ut.",
     "brand": "Nikon",
     "color": "crimson",
     "upc": "505349938-1",
@@ -56,7 +56,7 @@ const products = [
   {
     "id": 7,
     "name": "Mediocre Wool Car",
-    "descriptions": "Dolore sapiente eos. Vero et eius. Sit enim deleniti. Fugit quos quae.",
+    "description": "Dolore sapiente eos. Vero et eius. Sit enim deleniti. Fugit quos quae.",
     "brand": "Dell",
     "color": "white",
     "upc": "861015560-9",
@@ -65,7 +65,7 @@ const products = [
   {
     "id": 8,
     "name": "Lightweight Leather Pants",
-    "descriptions": "Facere eveniet alias. Qui et et. Quibusdam quia perferendis. Fuga a odio.",
+    "description": "Facere eveniet alias. Qui et et. Quibusdam quia perferendis. Fuga a odio.",
     "brand": "Nikon",
     "color": "amethyst",
     "upc": "565261619-9",
@@ -74,7 +74,7 @@ const products = [
   {
     "id": 9,
     "name": "Lightweight Plastic Chair",
-    "descriptions": "Ducimus repudiandae iste. Reiciendis dolorem dolor. Aut unde nulla. Ut iusto et.",
+    "description": "Ducimus repudiandae iste. Reiciendis dolorem dolor. Aut unde nulla. Ut iusto et.",
     "brand": "Adidas",
     "color": "orchid",
     "upc": "572411107-1",
@@ -83,7 +83,7 @@ const products = [
   {
     "id": 10,
     "name": "Small Steel Computer",
-    "descriptions": "Ullam sunt voluptas. Mollitia deserunt tenetur. Quas nulla beatae. Doloremque aliquid minus.",
+    "description": "Ullam sunt voluptas. Mollitia deserunt tenetur. Quas nulla beatae. Doloremque aliquid minus.",
     "brand": "Apple",
     "color": "blue",
     "upc": "221410351-1",
@@ -92,7 +92,7 @@ const products = [
   {
     "id": 11,
     "name": "Small Plastic Car",
-    "descriptions": "Voluptatum velit aperiam. Cupiditate et quibusdam. Deleniti ut autem. Provident minus ut.",
+    "description": "Voluptatum velit aperiam. Cupiditate et quibusdam. Deleniti ut autem. Provident minus ut.",
     "brand": "Sony",
     "color": "raspberry",
     "upc": "583568928-4",
@@ -101,7 +101,7 @@ const products = [
   {
     "id": 12,
     "name": "Awesome Leather Gloves",
-    "descriptions": "Voluptatem molestiae consequatur. Voluptatem hic et. Vel distinctio quasi. Quia blanditiis cupiditate.",
+    "description": "Voluptatem molestiae consequatur. Voluptatem hic et. Vel distinctio quasi. Quia blanditiis cupiditate.",
     "brand": "Dell",
     "color": "turquoise",
     "upc": "798971285-7",
@@ -110,7 +110,7 @@ const products = [
   {
     "id": 13,
     "name": "Lightweight Bronze Plate",
-    "descriptions": "Facere et esse. Aut vel repudiandae. Nemo fuga rem. Aut ad sit.",
+    "description": "Facere et esse. Aut vel repudiandae. Nemo fuga rem. Aut ad sit.",
     "brand": "Dell",
     "color": "beige",
     "upc": "258639716-9",
@@ -119,7 +119,7 @@ const products = [
   {
     "id": 14,
     "name": "Durable Leather Coat",
-    "descriptions": "Possimus eligendi in. Debitis natus aut. Doloremque minima sit. Quidem rerum consequatur.",
+    "description": "Possimus eligendi in. Debitis natus aut. Doloremque minima sit. Quidem rerum consequatur.",
     "brand": "Nikon",
     "color": "black",
     "upc": "026447841-X",
@@ -128,7 +128,7 @@ const products = [
   {
     "id": 15,
     "name": "Incredible Linen Table",
-    "descriptions": "Itaque voluptas quas. Omnis et architecto. Dolores et esse. Omnis earum amet.",
+    "description": "Itaque voluptas quas. Omnis et architecto. Dolores et esse. Omnis earum amet.",
     "brand": "Samsung",
     "color": "red",
     "upc": "344349565-6",
