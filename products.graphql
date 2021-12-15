@@ -16,12 +16,10 @@ type Product @key(fields: "id") {
     brand: String!
     "The product's color."
     color: String!
-    "The UPC for shipping and inventory logistics."
-    upc: String! @tag(name: "private")
+    "The internal barcode for shipping and inventory logistics."
+    ean: String! @tag(name: "private")
     "The price of the product in local currency."
     price: Price!
-    "A special discount code to promote sales"
-    promotionCode: String
 }
 
 extend type Price @key(fields: "id") {
