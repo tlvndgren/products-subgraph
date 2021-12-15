@@ -6,6 +6,7 @@ const products = [
     "brand": "Nike",
     "color": "aquamarine",
     "ean": "278505971-9",
+    "upc": "278505971-9",
     "priceId": 6,
     "promotionCode": "GoodPromo782676"
   },
@@ -16,6 +17,7 @@ const products = [
     "brand": "Samsung",
     "color": "olive",
     "ean": "389858924-2",
+    "upc": "389858924-2",
     "priceId": 15,
     "promotionCode": "SpecialCode617496"
   },
@@ -26,6 +28,7 @@ const products = [
     "brand": "Adidas",
     "color": "sapphire",
     "ean": "168932772-3",
+    "upc": "168932772-3",
     "priceId": 13,
     "promotionCode": "AmazingPrice532514"
   },
@@ -36,6 +39,7 @@ const products = [
     "brand": "Samsung",
     "color": "peach",
     "ean": "293589625-4",
+    "upc": "293589625-4",
     "priceId": 5,
     "promotionCode": "KillerPromo857241"
   },
@@ -46,6 +50,7 @@ const products = [
     "brand": "Apple",
     "color": "orchid",
     "ean": "756928205-1",
+    "upc": "756928205-1",
     "priceId": 4,
     "promotionCode": "KillerDiscount836337"
   },
@@ -56,6 +61,7 @@ const products = [
     "brand": "Adidas",
     "color": "byzantium",
     "ean": "270363602-4",
+    "upc": "270363602-4",
     "priceId": 8,
     "promotionCode": "GoodDeal101538"
   },
@@ -66,6 +72,7 @@ const products = [
     "brand": "Samsung",
     "color": "champagne",
     "ean": "999706664-2",
+    "upc": "999706664-2",
     "priceId": 3,
     "promotionCode": "IncredibleDeal311633"
   },
@@ -76,6 +83,7 @@ const products = [
     "brand": "Beats",
     "color": "crimson",
     "ean": "031824969-3",
+    "upc": "031824969-3",
     "priceId": 14,
     "promotionCode": "KillerPromotion742742"
   },
@@ -86,6 +94,7 @@ const products = [
     "brand": "Dell",
     "color": "plum",
     "ean": "749173098-1",
+    "upc": "749173098-1",
     "priceId": 11,
     "promotionCode": "KillerDiscount482400"
   },
@@ -96,6 +105,7 @@ const products = [
     "brand": "Samsung",
     "color": "gray",
     "ean": "112836746-7",
+    "upc": "112836746-7",
     "priceId": 1,
     "promotionCode": "KillerDeal439325"
   },
@@ -106,6 +116,7 @@ const products = [
     "brand": "Beats",
     "color": "orange",
     "ean": "479196554-X",
+    "upc": "479196554-X",
     "priceId": 2,
     "promotionCode": "StellarSale575433"
   },
@@ -116,6 +127,7 @@ const products = [
     "brand": "Sony",
     "color": "silver",
     "ean": "343971106-4",
+    "upc": "343971106-4",
     "priceId": 9,
     "promotionCode": "IncrediblePromo174674"
   },
@@ -126,6 +138,7 @@ const products = [
     "brand": "Beats",
     "color": "chocolate",
     "ean": "049439977-5",
+    "upc": "049439977-5",
     "priceId": 10,
     "promotionCode": "StellarSale393003"
   },
@@ -136,6 +149,7 @@ const products = [
     "brand": "GoPro",
     "color": "chocolate",
     "ean": "822535223-8",
+    "upc": "822535223-8",
     "priceId": 7,
     "promotionCode": "CoolPromotion901262"
   },
@@ -146,6 +160,7 @@ const products = [
     "brand": "Adidas",
     "color": "lemon",
     "ean": "442002296-5",
+    "upc": "442002296-5",
     "priceId": 12,
     "promotionCode": "SpecialPrice245300"
   }
