@@ -17,7 +17,7 @@ type Product @key(fields: "id") {
     "The product's color."
     color: String!
     "The internal barcode for shipping and inventory logistics."
-    ean: String! @tag(name: "private")
+    ean: String! @tag(name: "private") @deprecated(reason: "We are moving to UPCs.")
     "The price of the product in local currency."
     price: Price!
     "Promotion code to help generate more sales."
