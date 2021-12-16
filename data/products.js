@@ -2,7 +2,7 @@ const products = [
   {
     "id": 1,
     "name": "Awesome Bronze Computer",
-    "descriptions": "Maxime cum ducimus. Est eos saepe. Et dolorum et. Error esse alias.",
+    "description": "Maxime cum ducimus. Est eos saepe. Et dolorum et. Error esse alias.",
     "brand": "Nike",
     "color": "aquamarine",
     "ean": "278505971-9",
@@ -13,7 +13,7 @@ const products = [
   {
     "id": 2,
     "name": "Lightweight Linen Watch",
-    "descriptions": "Natus et accusamus. Voluptas tenetur corrupti. Quas ut et. Ea ut qui.",
+    "description": "Natus et accusamus. Voluptas tenetur corrupti. Quas ut et. Ea ut qui.",
     "brand": "Samsung",
     "color": "olive",
     "ean": "389858924-2",
@@ -24,7 +24,7 @@ const products = [
   {
     "id": 3,
     "name": "Rustic Iron Clock",
-    "descriptions": "Consequuntur voluptatem autem. Deleniti modi voluptate. Voluptatum earum recusandae. Adipisci beatae voluptas.",
+    "description": "Consequuntur voluptatem autem. Deleniti modi voluptate. Voluptatum earum recusandae. Adipisci beatae voluptas.",
     "brand": "Adidas",
     "color": "sapphire",
     "ean": "168932772-3",
@@ -35,7 +35,7 @@ const products = [
   {
     "id": 4,
     "name": "Mediocre Concrete Coat",
-    "descriptions": "Nesciunt aut aut. Natus nostrum impedit. Accusantium et itaque. Qui et tempora.",
+    "description": "Nesciunt aut aut. Natus nostrum impedit. Accusantium et itaque. Qui et tempora.",
     "brand": "Samsung",
     "color": "peach",
     "ean": "293589625-4",
@@ -46,7 +46,7 @@ const products = [
   {
     "id": 5,
     "name": "Fantastic Iron Gloves",
-    "descriptions": "Rem beatae voluptas. Tempora laborum unde. Nemo velit sed. Et ipsam ad.",
+    "description": "Rem beatae voluptas. Tempora laborum unde. Nemo velit sed. Et ipsam ad.",
     "brand": "Apple",
     "color": "orchid",
     "ean": "756928205-1",
@@ -57,7 +57,7 @@ const products = [
   {
     "id": 6,
     "name": "Heavy Duty Paper Wallet",
-    "descriptions": "Nisi et harum. Aperiam placeat nemo. Rerum et nostrum. Doloribus perspiciatis modi.",
+    "description": "Nisi et harum. Aperiam placeat nemo. Rerum et nostrum. Doloribus perspiciatis modi.",
     "brand": "Adidas",
     "color": "byzantium",
     "ean": "270363602-4",
@@ -68,7 +68,7 @@ const products = [
   {
     "id": 7,
     "name": "Heavy Duty Leather Shoes",
-    "descriptions": "Facilis tempore perferendis. Sed ut ipsam. Esse pariatur molestias. Odit illo qui.",
+    "description": "Facilis tempore perferendis. Sed ut ipsam. Esse pariatur molestias. Odit illo qui.",
     "brand": "Samsung",
     "color": "champagne",
     "ean": "999706664-2",
@@ -79,7 +79,7 @@ const products = [
   {
     "id": 8,
     "name": "Intelligent Marble Clock",
-    "descriptions": "Odio exercitationem quod. Aut consequatur eum. Ut est ea. Sapiente eos officiis.",
+    "description": "Odio exercitationem quod. Aut consequatur eum. Ut est ea. Sapiente eos officiis.",
     "brand": "Beats",
     "color": "crimson",
     "ean": "031824969-3",
@@ -90,7 +90,7 @@ const products = [
   {
     "id": 9,
     "name": "Small Leather Lamp",
-    "descriptions": "Laborum temporibus rem. Fugit repellat quia. Id et doloremque. Et eaque ut.",
+    "description": "Laborum temporibus rem. Fugit repellat quia. Id et doloremque. Et eaque ut.",
     "brand": "Dell",
     "color": "plum",
     "ean": "749173098-1",
@@ -101,7 +101,7 @@ const products = [
   {
     "id": 10,
     "name": "Intelligent Plastic Gloves",
-    "descriptions": "Ad aut sed. Ullam vero inventore. Dolor aliquid vel. Ad quia voluptatem.",
+    "description": "Ad aut sed. Ullam vero inventore. Dolor aliquid vel. Ad quia voluptatem.",
     "brand": "Samsung",
     "color": "gray",
     "ean": "112836746-7",
@@ -112,7 +112,7 @@ const products = [
   {
     "id": 11,
     "name": "Rustic Linen Plate",
-    "descriptions": "Aliquid molestias minima. Ut distinctio facilis. Quia iure deleniti. Sit ab nobis.",
+    "description": "Aliquid molestias minima. Ut distinctio facilis. Quia iure deleniti. Sit ab nobis.",
     "brand": "Beats",
     "color": "orange",
     "ean": "479196554-X",
@@ -123,7 +123,7 @@ const products = [
   {
     "id": 12,
     "name": "Synergistic Silk Shoes",
-    "descriptions": "Cupiditate ipsa fugiat. Voluptatibus voluptatem deserunt. Quam nesciunt beatae. Sint nostrum eos.",
+    "description": "Cupiditate ipsa fugiat. Voluptatibus voluptatem deserunt. Quam nesciunt beatae. Sint nostrum eos.",
     "brand": "Sony",
     "color": "silver",
     "ean": "343971106-4",
@@ -134,7 +134,7 @@ const products = [
   {
     "id": 13,
     "name": "Ergonomic Marble Plate",
-    "descriptions": "Neque earum rerum. Fuga odit ut. Et ut consequuntur. Qui fugit fugiat.",
+    "description": "Neque earum rerum. Fuga odit ut. Et ut consequuntur. Qui fugit fugiat.",
     "brand": "Beats",
     "color": "chocolate",
     "ean": "049439977-5",
@@ -145,7 +145,7 @@ const products = [
   {
     "id": 14,
     "name": "Rustic Marble Shoes",
-    "descriptions": "Eum aut consequatur. Quia veritatis qui. Assumenda modi ipsam. Quibusdam eum provident.",
+    "description": "Eum aut consequatur. Quia veritatis qui. Assumenda modi ipsam. Quibusdam eum provident.",
     "brand": "GoPro",
     "color": "chocolate",
     "ean": "822535223-8",
@@ -156,7 +156,7 @@ const products = [
   {
     "id": 15,
     "name": "Heavy Duty Paper Watch",
-    "descriptions": "Labore dolor magnam. Tenetur ab cumque. Suscipit aut dolore. Aut ipsum nihil.",
+    "description": "Labore dolor magnam. Tenetur ab cumque. Suscipit aut dolore. Aut ipsum nihil.",
     "brand": "Adidas",
     "color": "lemon",
     "ean": "442002296-5",
