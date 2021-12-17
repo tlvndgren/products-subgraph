@@ -22,8 +22,6 @@ type Product @key(fields: "id") {
     price: Price!
     "Promotion code to help generate more sales."
     promotionCode: String
-    "Using upc for broader distribution networking."
-    upc: String
 }
 
 extend type Price @key(fields: "id") {
