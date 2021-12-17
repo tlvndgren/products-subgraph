@@ -15,7 +15,7 @@ type Product @key(fields: "id") {
     "The manufacturer of the product."
     brand: String!
     "The product's color."
-    colors: String!
+    color: String!
     "The internal barcode for shipping and inventory logistics."
     ean: String! @tag(name: "private")
     "The price of the product in local currency."
