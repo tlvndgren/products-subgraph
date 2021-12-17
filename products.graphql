@@ -29,6 +29,8 @@ extend type Price @key(fields: "id") {
 }
 
 extend type Query {
+    "Get a list of all products"
     products: [Product]
+    "Get a single product."
     product(id: ID!): Product!
 }
