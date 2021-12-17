@@ -8,20 +8,22 @@ directive @tag(name: String!) repeatable on
 type Product @key(fields: "id") {
     "Internal product ID for db mapping."
     id: ID!
-    "Name of the product."
-    name: String!
-    "Short descriptions of the product."
-    description: String!
-    "The manufacturer of the product."
+    "Manufacturer of the product."
     brand: String!
-    "The product's color."
+    "The color of the product."
     color: String!
+    "An explanation of the product."
+    description: String!
     "The internal barcode for shipping and inventory logistics."
     ean: String! @tag(name: "private")
+    "Name of the product."
+    name: String!
     "The price of the product in local currency."
     price: Price!
     "Promotion code to help generate more sales."
     promotionCode: String
+    "Using upc for broader distribution networking."
+    upc: String
 }
 
 extend type Price @key(fields: "id") {
