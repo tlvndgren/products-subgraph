@@ -1,5 +1,5 @@
 publish:
-	rover subgraph publish Ty-Ecom-Fed-Demo@current --schema ./products.graphql \
+	rover subgraph publish Ty-Demo@current --schema ./products.graphql \
 		--name products --routing-url https://products-subgraph-waaq4qt37q-uc.a.run.app
 
 check:
