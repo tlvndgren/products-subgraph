@@ -9,7 +9,7 @@ type Product @key(fields: "id") {
     "Internal product ID for db mapping."
     id: ID!
     "Manufacturer of the product."
-    brand: String!
+    brand: String! @tag(name: "flagB")
     "The color of the product."
     color: String!
     "An explanation of the product."
@@ -21,7 +21,7 @@ type Product @key(fields: "id") {
     "The price of the product in local currency."
     price: Price!
     "Promotion code to help generate more sales."
-    promotionCode: String
+    promotionCode: String @tag(name: "flagA")
     "Using upc for broader distribution networking."
     upc: String
 }

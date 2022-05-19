@@ -1,7 +1,7 @@
 const products = [
   {
     "id": 1,
-    "name": "Awesome Bronze Computer",
+    "nam": "Awesome Bronze Computer",
     "description": "Maxime cum ducimus. Est eos saepe. Et dolorum et. Error esse alias.",
     "brand": "Nike",
     "color": "aquamarine",
@@ -12,7 +12,7 @@ const products = [
   },
   {
     "id": 2,
-    "name": "Lightweight Linen Watch",
+    "nam": "Lightweight Linen Watch",
     "description": "Natus et accusamus. Voluptas tenetur corrupti. Quas ut et. Ea ut qui.",
     "brand": "Samsung",
     "color": "olive",
@@ -23,7 +23,7 @@ const products = [
   },
   {
     "id": 3,
-    "name": "Rustic Iron Clock",
+    "nam": "Rustic Iron Clock",
     "description": "Consequuntur voluptatem autem. Deleniti modi voluptate. Voluptatum earum recusandae. Adipisci beatae voluptas.",
     "brand": "Adidas",
     "color": "sapphire",
@@ -34,7 +34,7 @@ const products = [
   },
   {
     "id": 4,
-    "name": "Mediocre Concrete Coat",
+    "nam": "Mediocre Concrete Coat",
     "description": "Nesciunt aut aut. Natus nostrum impedit. Accusantium et itaque. Qui et tempora.",
     "brand": "Samsung",
     "color": "peach",
@@ -45,7 +45,7 @@ const products = [
   },
   {
     "id": 5,
-    "name": "Fantastic Iron Gloves",
+    "nam": "Fantastic Iron Gloves",
     "description": "Rem beatae voluptas. Tempora laborum unde. Nemo velit sed. Et ipsam ad.",
     "brand": "Apple",
     "color": "orchid",
@@ -56,7 +56,7 @@ const products = [
   },
   {
     "id": 6,
-    "name": "Heavy Duty Paper Wallet",
+    "nam": "Heavy Duty Paper Wallet",
     "description": "Nisi et harum. Aperiam placeat nemo. Rerum et nostrum. Doloribus perspiciatis modi.",
     "brand": "Adidas",
     "color": "byzantium",
@@ -67,7 +67,7 @@ const products = [
   },
   {
     "id": 7,
-    "name": "Heavy Duty Leather Shoes",
+    "nam": "Heavy Duty Leather Shoes",
     "description": "Facilis tempore perferendis. Sed ut ipsam. Esse pariatur molestias. Odit illo qui.",
     "brand": "Samsung",
     "color": "champagne",
@@ -78,7 +78,7 @@ const products = [
   },
   {
     "id": 8,
-    "name": "Intelligent Marble Clock",
+    "nam": "Intelligent Marble Clock",
     "description": "Odio exercitationem quod. Aut consequatur eum. Ut est ea. Sapiente eos officiis.",
     "brand": "Beats",
     "color": "crimson",
@@ -89,7 +89,7 @@ const products = [
   },
   {
     "id": 9,
-    "name": "Small Leather Lamp",
+    "nam": "Small Leather Lamp",
     "description": "Laborum temporibus rem. Fugit repellat quia. Id et doloremque. Et eaque ut.",
     "brand": "Dell",
     "color": "plum",
@@ -100,7 +100,7 @@ const products = [
   },
   {
     "id": 10,
-    "name": "Intelligent Plastic Gloves",
+    "nam": "Intelligent Plastic Gloves",
     "description": "Ad aut sed. Ullam vero inventore. Dolor aliquid vel. Ad quia voluptatem.",
     "brand": "Samsung",
     "color": "gray",
@@ -111,7 +111,7 @@ const products = [
   },
   {
     "id": 11,
-    "name": "Rustic Linen Plate",
+    "nam": "Rustic Linen Plate",
     "description": "Aliquid molestias minima. Ut distinctio facilis. Quia iure deleniti. Sit ab nobis.",
     "brand": "Beats",
     "color": "orange",
@@ -122,7 +122,7 @@ const products = [
   },
   {
     "id": 12,
-    "name": "Synergistic Silk Shoes",
+    "nam": "Synergistic Silk Shoes",
     "description": "Cupiditate ipsa fugiat. Voluptatibus voluptatem deserunt. Quam nesciunt beatae. Sint nostrum eos.",
     "brand": "Sony",
     "color": "silver",
@@ -133,7 +133,7 @@ const products = [
   },
   {
     "id": 13,
-    "name": "Ergonomic Marble Plate",
+    "nam": "Ergonomic Marble Plate",
     "description": "Neque earum rerum. Fuga odit ut. Et ut consequuntur. Qui fugit fugiat.",
     "brand": "Beats",
     "color": "chocolate",
@@ -144,7 +144,7 @@ const products = [
   },
   {
     "id": 14,
-    "name": "Rustic Marble Shoes",
+    "nam": "Rustic Marble Shoes",
     "description": "Eum aut consequatur. Quia veritatis qui. Assumenda modi ipsam. Quibusdam eum provident.",
     "brand": "GoPro",
     "color": "chocolate",
@@ -155,7 +155,7 @@ const products = [
   },
   {
     "id": 15,
-    "name": "Heavy Duty Paper Watch",
+    "nam": "Heavy Duty Paper Watch",
     "description": "Labore dolor magnam. Tenetur ab cumque. Suscipit aut dolore. Aut ipsum nihil.",
     "brand": "Adidas",
     "color": "lemon",
