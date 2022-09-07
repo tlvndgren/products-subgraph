@@ -3,7 +3,7 @@ const products = [
     "id": 1,
     "name": "Awesome Bronze Computer",
     "description": "Maxime cum ducimus. Est eos saepe. Et dolorum et. Error esse alias.",
-    "brand": "Nike",
+    "brand": null,
     "color": "aquamarine",
     "ean": "278505971-9",
     "upc": "278505971-9",
