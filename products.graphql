@@ -4,6 +4,24 @@ directive @tag(name: String!) repeatable on
   | OBJECT
   | UNION
 
+
+"User Service Contact information"
+directive @contact(
+  "Contact title of the subgraph owner"
+  name: String!
+  "URL where the subgraph's owner can be reached"
+  url: String
+  "Other relevant notes can be included here; supports markdown links"
+  description: String
+) on SCHEMA
+
+extend schema
+  @contact(
+    name: "Margie May @Product Server Team"
+    url: "https://myteam.slack.com/archives/teams-chat-room-url"
+    description: "send urgent issues to [#users-oncall](https://yourteam.slack.com/archives/oncall)."
+  )
+
 "An object representing the products we sell."
 type Product @key(fields: "id") {
     "Internal product ID for db mapping."
@@ -14,7 +32,7 @@ type Product @key(fields: "id") {
     color: String!
     "An explanation of the product."
     description: String!
-    "The internal barcode for shipping and inventory logistics."
+    # "The internal barcode for shipping and inventory logistics."
     ean: String! @tag(name: "private") @deprecated(reason: "We are moving to UPCs.")
     "Name of the product."
     name: String!
@@ -24,6 +42,8 @@ type Product @key(fields: "id") {
     promotionCode: String @tag(name: "flagA")
     "Using upc for broader distribution networking."
     upc: String
+    "New field to test"
+    new_field: String
 }
 
 extend type Price @key(fields: "id") {

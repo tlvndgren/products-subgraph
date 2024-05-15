@@ -1,16 +1,14 @@
-publish:
-	rover subgraph publish Tyler-Fed-Demo@prod --schema ./products.graphql \
-		--name products --routing-url https://prod-products-subgraph-bhl6lhslfa-uc.a.run.app
+create:
+	wgc subgraph create products \
+    --namespace default \
+    --label team=B \
+    --routing-url https://prod-products-subgraph-bhl6lhslfa-uc.a.run.app
 
-publish-staging:
-	rover subgraph publish Tyler-Fed-Demo@staging --schema ./products.graphql \
-		--name products --routing-url https://staging-products-bhl6lhslfa-uc.a.run.app
+publish:
+	wgc subgraph publish products --schema ./products.graphql
+
+delete:
+	wgc subgraph delete products -f
 
 check:
-	rover subgraph check Tyler-Fed-Demo@prod \
-	--schema=products.graphql \
-	--name=products --validation-period=2w
-
-dev-publish:
-	rover subgraph publish Tyler-Fed-Demo@prod --profile dev --schema ./products.graphql \
-		--name products --routing-url https://prod-products-subgraph-bhl6lhslfa-uc.a.run.app
+	wgc subgraph check products --schema ./products.graphql

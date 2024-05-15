@@ -1,11 +1,13 @@
 // External Dependencies
-const fs = require("fs");
-const { ApolloServer, gql } = require("apollo-server");
-const { buildSubgraphSchema } = require("@apollo/federation")
+import fs from "fs";
+import { ApolloServer } from '@apollo/server';
+import { buildSubgraphSchema } from "@apollo/subgraph";
+import { startStandaloneServer } from '@apollo/server/standalone';
+import gql from 'graphql-tag';
 
 // Internal Dependencies
 const typeDefs = gql(fs.readFileSync("./products.graphql", 'utf8'));
-const products = require("./data/products.js");
+import { products } from "./data/products.js";
 
 // Variable Definitions
 const port = process.env.PORT || 4001
@@ -30,10 +32,13 @@ const resolvers = {
 };
 
 // Apollo Server Setup
-const server = new ApolloServer({
-    schema: buildSubgraphSchema([{ typeDefs, resolvers }]),
+const server = new ApolloServer({ 
+    schema: buildSubgraphSchema({ typeDefs, resolvers }),
 });
-  
-server.listen({ port }).then(({ url }) => {
-    console.log(`Products service ready at ${url}`);
-});
+
+const { url } = await startStandaloneServer(server, {
+    context: async ({ req }) => ({ token: req.headers.token }),
+    listen: { port: port },
+  });
+
+console.log(`🚀  Prices Subgraph ready at ${url}`);
