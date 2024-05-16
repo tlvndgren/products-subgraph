@@ -1,12 +1,14 @@
 check:
-	rover subgraph check Tyler-Fed-Demo@prod \
+	APOLLO_KEY=service:Ecom-Demo:B3ZfLDPWeM2BTKiRu2b37g \
+	rover subgraph check Ecom-Demo@prod \
 	--schema=products.graphql \
 	--name=products --validation-period=2w
 	
 publish:
-	rover subgraph publish Tyler-Fed-Demo@prod --schema ./products.graphql \
+	APOLLO_KEY=service:Ecom-Demo:B3ZfLDPWeM2BTKiRu2b37g \
+	rover subgraph publish Ecom-Demo@prod --schema ./products.graphql \
 		--name products --routing-url https://products-as4-bhl6lhslfa-uc.a.run.app
 
 publish-staging:
-	rover subgraph publish Tyler-Fed-Demo@staging --schema ./products.graphql \
+	rover subgraph publish Ecom-Demo@staging --schema ./products.graphql \
 		--name products --routing-url https://staging-products-bhl6lhslfa-uc.a.run.app
